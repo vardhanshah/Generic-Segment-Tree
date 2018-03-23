@@ -1,3 +1,14 @@
+/*
+
+Problem Statement : 
+
+We have an array input_array[0 . . . n-1]. We should be able to
+1 Find the sum of elements from index l to r where 0 <= l <= r <= n-1
+
+2 Change value of a specified element of the array to a new value x. We need to do arr[i] = x where 0 <= i <= n-1.
+
+*/
+
 #include<iostream>
 #include "SegmentTree.hpp"
 
@@ -36,8 +47,8 @@ int main()
     
     // "SegmentTree" consturctor will initialize and build segment tree and store necessary information.
     cout << "-----------------------------------------" << endl;  
-    cout << "Find the summation for range (0,4) in input array : ";
-    cout << s.query(0,4) << endl;
+    cout << "Find the summation for range (0,3) in input array : ";
+    cout << s.query(0,3) << endl;
     //query function
     //Arguments : rs = 0 , re = 4 .
     //rs stands for start of range
@@ -56,8 +67,8 @@ int main()
     // "update" function :  update the value of given index in main input array(in our case input_array)
         //and in segment tree also.
     cout << "-----------------------------------------" << endl;  
-    cout << "Find the summation for range (0,4) for input array : ";
-    cout << s.query(0,4) << endl;
+    cout << "Find the summation for range (1,4) for input array : ";
+    cout << s.query(1,4) << endl;
     
     return 0;
 }
