@@ -1,5 +1,6 @@
 # Generic-Segment-Tree
-Generic Segment Tree frame work:
+Generic Segment Tree frame work: <br>
+
 SegmentTree class constructor definition:
 
 SegmentTree<T> (T *array, int size_of_array , T nop , T(*merger)(T,T) , T(*lnode_op)(T) )
