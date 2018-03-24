@@ -24,7 +24,8 @@ void SegmentTree<T>::update(int index,int update_value)
 
 We want to update value for particular index in input array, so we take index as input and new value. This function will update the value at index in input array and also in segment tree.
 
+Header file SegmentTree.hpp and example of it is given in SegmentTreeHeader folder
+ProblemExample is test program for ensuring accuracy and performance benchmark tests against various type of solutions (brute-force, recursive, iterative).More details in ProblemStatement.txt file in ProblemExample folder
 
-Example is given in main.cpp file.
 
   
