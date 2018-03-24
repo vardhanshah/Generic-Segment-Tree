@@ -1,0 +1,26 @@
+Problem Statement : 
+
+We have an array array[1 . . . n], where n is number of elements in array. We should be able to
+
+1 Find the sum s of elements from index l to r where 1 <= l <= r <= n
+(if(s>=mod)s=s%mod, where mod is 1000000007)
+Print in following manner "range [l,r] : s"(without quotes).
+
+2 Change value of a specified element of the array to a new value x. We need to do arr[i] = x where 1 <= i <= n.
+
+Solution :
+
+CreateTestCase.cpp 			- file shows how input test case generated.
+
+SegmentTreeProgam.cpp 		- file shows the solution using Segment Tree approach for the problem
+BruteForceProgram.cpp 		- file shows the solution using Brute Force approach for the problem
+
+[Both above program shows output as describe in problem, and at the end shows the time is taken by both program.]
+
+Input.txt					- file shows the input for the 
+SegmentTreeProgamOutput.txt - file shows the output of SegmentTreeProgram.cpp
+BruteForceProgramOutput.txt - file shows the output of BruteForceProgram.cpp 
+
+diff.patch            		- file shows the difference between SegmentTreeProgamOutput.txt and BruteForceProgramOutput.txt
+(difference being the taken time from above program)
+
