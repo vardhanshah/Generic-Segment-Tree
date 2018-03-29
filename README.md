@@ -27,7 +27,11 @@ We want to update value for particular index in input array, so we take index as
 Header file SegmentTree.hpp and example of it is given in SegmentTreeHeader folder.<br>
 
 
-ProblemExample folder contains test program for ensuring accuracy and performance benchmark. It contains brute force solution and segment tree approach solution. More details in ProblemExample/ProblemStatement.txt
+TestingHeader folder contains test program for ensuring accuracy and performance benchmark.
 
+Only execute Testing.cpp
+
+- g++ -std=c++17 -o Testing Testing.cpp
+- ./Testing
 
   
